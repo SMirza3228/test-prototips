@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header__container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <a href="#" class="logo">LOGO</a>
+                </div>
+
+                <nav class="header__nav">
+                    <ul class="sidebar">
+                        <li onclick="closeSidebar()" class="cursor-close"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#000"><path d="m251.33-204.67-46.66-46.66L433.33-480 204.67-708.67l46.66-46.66L480-526.67l228.67-228.66 46.66 46.66L526.67-480l228.66 228.67-46.66 46.66L480-433.33 251.33-204.67Z"/></svg></li>
+                        <li><a href="#" class="list__link">Home</a></li>
+                        <li><a href="#" class="list__link">Team</a></li>
+                        <li><a href="#" class="list__link">News</a></li>
+                        <li><a href="#" class="list__link">Contact</a></li>
+                        <li><a href="#" class="list__link">FAQ</a></li>
+                        <li><a href="#" class="list__link">Ours</a></li>
+                        <a href="#" class="list__link">Sign In</a>
+                    </ul>
+
+                    <ul class="header__list">
+                        <li><a href="#" class="list__link">Home</a></li>
+                        <li><a href="#" class="list__link">Team</a></li>
+                        <li><a href="#" class="list__link">News</a></li>
+                        <li><a href="#" class="list__link">Contact</a></li>
+                        <li><a href="#" class="list__link">FAQ</a></li>
+                        <li><a href="#" class="list__link">Ours</a></li>
+                        <a href="#" class="header__btn">Sign In</a>
+                    </ul>
+                    <li onclick="showSidebar()" class="cursor-main"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#000"><path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"/></svg></li>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="welcome">
+            <div class="container">
+                <div class="main__inner">
+                    <div class="main__text">
+                        <h1 class="main__title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                        <p class="main__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad impedit itaque iusto quod non voluptatibus magni placeat voluptatem quia provident repellat sapiente dignissimos iste nam cupiditate sit dolores, culpa facere!
+                        Debitis voluptatibus accusantium inventore qui, cumque, corporis molestias omnis delectus perspiciatis, eveniet aliquid ipsum odio officia sed est deserunt esse. Maxime provident perspiciatis architecto laudantium quidem. Commodi nobis consectetur eaque.</p>
+                        
+                        <div class="btn-box">
+                            <a href="#" class="btn-1">Grac</a>
+                            <a href="#" class="btn-2">Grazis</a>
+                        </div>
+                    </div>
+                    <img src="img/rainbow-dragon-1024x768-9610.jpg" alt="" class="hero-1" width="500px">
+                </div>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="container">
+                <div class="services-box">
+                    <h2 class="services__sub">Lorem ipsum dolor sit amet.</h2>
+                    <p class="services-sub-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugit autem necessitatibus enim dolores, qui, aspernatur optio totam rerum cum inventore aliquam?</p>
+                </div>
+                <div class="services__inner">
+                    <img src="img/shark.jpg" alt="" class="servic-hero-1" width="500px">
+                    <div class="services__text">
+                        <h2 class="services__title">Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+                        <p class="services__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis iste libero, totam nemo quibusdam tempora laborum reprehenderit, consequuntur quos nostrum veritatis error facilis, porro omnis beatae ducimus ad illum? Odit.</p>
+                        <a href="#" class="btn-3">Open it</a>
+                    </div>
+                </div>
+
+                <div class="services__inner">
+                    <div class="services__text">
+                        <h2 class="services__title">Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+                        <p class="services__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis iste libero, totam nemo quibusdam tempora laborum reprehenderit, consequuntur quos nostrum veritatis error facilis, porro omnis beatae ducimus ad illum? Odit.</p>
+                        <a href="#" class="btn-3">Open it</a>
+                    </div>
+                    <img src="img/dino-neon.jpg" alt="" class="servic-hero-2" width="500px">
+                </div>
+
+                <div class="services__inner">
+                    <img src="img/3-ugol.jpg" alt="" class="servic-hero-3" width="500px">
+                    <div class="services__text">
+                        <h2 class="services__title">Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+                        <p class="services__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis iste libero, totam nemo quibusdam tempora laborum reprehenderit, consequuntur quos nostrum veritatis error facilis, porro omnis beatae ducimus ad illum? Odit.</p>
+                        <a href="#" class="btn-3">Open it</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="description">
+            <div class="container">
+                <div class="description__iner">
+                    <div class="description__text">
+                        <h2 class="description__title">Description</h2>
+                        <p class="description__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit deserunt aspernatur eum maiores! Minima magni facilis, tenetur fugiat aliquam quidem a numquam, doloribus illum nesciunt, repudiandae libero? Quaerat, corporis fugiat.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
